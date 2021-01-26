@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49" height="89.199" viewBox="0 0 49 89.199">
+  <g id="Scroll_Down" data-name="Scroll Down" transform="translate(-789.841 -807.755)">
+    <g id="Next" transform="translate(789.841 895.541) rotate(-90)">
+      <g id="Group_86" data-name="Group 86" transform="translate(0 16.979)">
+        <line id="Line_3" data-name="Line 3" x1="44.457" transform="translate(0.032 7.784)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        <path id="Path_8252" data-name="Path 8252" d="M7.186,0,0,7.635" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        <path id="Path_8253" data-name="Path 8253" d="M7.186,7.635,0,0" transform="translate(0 7.665)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      </g>
+      <text id="Scroll" transform="translate(65.786) rotate(90)" fill="#fff" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Scroll</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="249.212" height="32.462" viewBox="0 0 249.212 32.462">
+  <g id="CTA" transform="translate(0 0.462)">
+    <text id="Learn_More" data-name="Learn More" transform="translate(0 23.538)" fill="#14415a" font-size="24" font-family="NunitoSans-ExtraBold, Nunito Sans" font-weight="800" letter-spacing="0.2em"><tspan x="0" y="0">LEARN MORE</tspan></text>
+    <g id="Next" transform="translate(247.092 21.174) rotate(-180)">
+      <g id="Group_86" data-name="Group 86">
+        <line id="Line_3" data-name="Line 3" x1="30.07" transform="translate(0.022 5.265)" fill="none" stroke="#14415a" stroke-linecap="round" stroke-width="3"/>
+        <path id="Path_8252" data-name="Path 8252" d="M4.861,0,0,5.164" fill="none" stroke="#14415a" stroke-linecap="round" stroke-width="3"/>
+        <path id="Path_8253" data-name="Path 8253" d="M4.861,5.164,0,0" transform="translate(0 5.185)" fill="none" stroke="#14415a" stroke-linecap="round" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

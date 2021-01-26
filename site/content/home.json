@@ -1,0 +1,24 @@
+{
+  "intro": "Investing in Heritage and Human Potential",
+  "introHomePageBackground": "/img/background.jpg",
+  "sections": [
+    {
+      "title": "Restoration",
+      "description": "Maāhris restoration is a partner in sustainable design, architecture, and construction because these are our roots. By taking pride in our work, we enhance the beauty of the community so it can be enjoyed for generations to come.",
+      "photo": "/img/img1.jpg",
+      "slug": "restoration"
+    },
+    {
+      "description": "We have an unprecedented potential using digital technology to bring communities together at scale. Maāhris sponsors academic and independent research in high-impact fields including development, telecom, privacy and technology.",
+      "title": "Research",
+      "photo": "/img/img2.jpg",
+      "slug": "research"
+    },
+    {
+      "title": "Visual Story Telling",
+      "description": "Mixed media story telling provides an opportunity to tell compelling stories.  We assist project development including photo journalism, mixed media web development, and other impactful work.",
+      "photo": "/img/img3.jpg",
+      "slug": "visual-story-telling"
+    }
+  ]
+}
