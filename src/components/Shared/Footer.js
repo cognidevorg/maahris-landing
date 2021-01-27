@@ -3,6 +3,7 @@ import styled from "styled-components"
 import Facebook from "../../images/assets/facebook.svg"
 import Instagram from "../../images/assets/instagram-glyph-1.svg"
 import Twitter from "../../images/assets/twitter.svg"
+import { Helmet } from "react-helmet"
 
 const Root= styled.div`
     display: flex;
@@ -68,7 +69,7 @@ const Footer =()=>{
                 </Icons>
             </W>
             <Address>{address}</Address>
-            
+            <Helmet><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "aac76c8713a44e42aa017583f1ccb122"}'></script></Helmet>
         </Root>
     )
 }

@@ -8,6 +8,7 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-anchor-links`,
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,

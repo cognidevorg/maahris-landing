@@ -2,11 +2,11 @@ backend:
   name: git-gateway
 
 # when using the default proxy server port
-local_backend:
-  # when using a custom proxy server port
-  url: http://localhost:8082/api/v1
-  # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
-  allowed_hosts: ['192.168.0.1']
+# local_backend:
+#   # when using a custom proxy server port
+#   url: http://localhost:8082/api/v1
+#   # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
+#   allowed_hosts: ['192.168.0.1']
 
 media_folder: static/img
 public_folder: /img
@@ -28,13 +28,9 @@ collections:
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Description, name: description, widget: string}
-              - {label: Photo, name: photo, widget: image}
+              - {label: Photo, name: photo, widget: image}              
+              - {label: Learn More, name: learnMore, widget: boolean, default: false}
               - {label: Slug, name: slug, widget: string}
-          - {label: "Phone", name: phone, widget: string}
-          - {label: "Address", name: address, widget: string}
-          - {label: "Facebook", name: facebook, widget: string}
-          - {label: "Instagram", name: instagram, widget: string}
-          - {label: "Twitter", name: twitter, widget: string}
 
   - label: "Site Config"
     name: "site-config"

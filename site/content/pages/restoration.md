@@ -1,5 +1,5 @@
 ---
-title: Research
+title: Brining Heritage to Life
 slug: restoration
 intro: Maāhris restoration brings heritage to life
 sliderImage:

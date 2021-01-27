@@ -211,6 +211,7 @@ const FooterText= styled.div`
     bottom: 0;
     margin: auto;
     height: max-content;
+    max-height: 200px;
     text-align: center;
     max-width: 540px;
     @media (max-width: 800px){

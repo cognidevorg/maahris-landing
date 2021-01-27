@@ -5,6 +5,7 @@ import Facebook from "../../images/assets/facebook.svg"
 import Instagram from "../../images/assets/instagram-glyph-1.svg"
 import Twitter from "../../images/assets/twitter.svg"
 import MenuClose from "../../images/assets/MenuCloseIcon.svg"
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const MenuCloseIcon= styled(MenuClose)`
     position: absolute;
@@ -33,7 +34,7 @@ const Content= styled.div`
 
     }
 `
-const B = styled(Link)`
+const B = styled(AnchorLink)`
     margin-bottom: 65px;
     font-size: 28px;
     color: white;
@@ -86,10 +87,10 @@ const Footer =(props)=>{
         <div>
             <MenuCloseIcon onClick={()=>{props.setMenu(false)}}/>
             <Content>
-                <B to="/" activeClassName="active">Home</B>
-                <B to="/restoration"  activeClassName="active">Restoration</B>
-                <B>Research</B>
-                <B>Visual Story Telling</B>
+                <B onAnchorLinkClick={()=>{props.setMenu(false)}} to="/" activeClassName="active">Home</B>
+                <B onAnchorLinkClick={()=>{props.setMenu(false)}} to={`/restoration`}  activeClassName="active">Restoration</B>
+                <B onAnchorLinkClick={()=>{props.setMenu(false)}} to={`/#research`}  activeClassName="active">Research</B>
+                <B onAnchorLinkClick={()=>{props.setMenu(false)}} to={`/#visual-story-telling`}  activeClassName="active">Visual Story Telling</B>
                 <Detail>
                 <Icons>
                     <Social target="_blank" href="https://www.twitter.com"><Twitter/></Social>

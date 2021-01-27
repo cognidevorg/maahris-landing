@@ -78,6 +78,7 @@ const Title = styled.div`
   margin-top: auto;
   margin-bottom: auto;
   height: max-content;
+  max-height: 200px;
   @media (max-width: 420px) {
     position: relative;
     font-size: 32px;
@@ -100,9 +101,9 @@ const LinkMod = styled(Link)`
 `
 
 const FirstPageTemplate = ({ content }) => {
-  const { title, description, photo, slug } = content
+  const { title, description, photo, learnMore, slug } = content
   return (
-    <Root className="animate__animated animate__fadeInLeft">
+    <Root className="animate__animated animate__fadeInLeft" id={slug}>
       <ImgContainer>
         <Image imageUrl={photo} className="object-cover" />
 
@@ -111,10 +112,10 @@ const FirstPageTemplate = ({ content }) => {
       <Detail>
         <Data>
           {description}
-
+          {learnMore?
           <LinkMod to={`/${slug}`}>
             <CTAIcon />
-          </LinkMod>
+          </LinkMod>:null}
         </Data>
       </Detail>
     </Root>

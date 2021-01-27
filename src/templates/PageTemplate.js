@@ -7,6 +7,7 @@ import OurRoots from "../components/Page/OurRoots.js"
 import Footer from "../components/Shared/Footer"
 import MenuData from "../components/Shared/Menu"
 import Swiper from "../components/Page/Swiper"
+import SEO from '../components/Shared/SEO'
 import 'animate.css/animate.css'
 import '../styles/font.scss'
 
@@ -63,6 +64,7 @@ const HeadTitle= styled.div`
   bottom: 0;
   margin: auto;
   height: max-content;
+  max-height: 360px;
   max-width: 473px;
   text-align: center;
   @media (max-width: 800px){
@@ -103,6 +105,7 @@ const PageTemplate = ({data}) => {
   
   return(
   <Root>
+    <SEO title={content.title}/>
     <div className="max-h-screen relative center white">
       <Swiper content={content}/>
       <LogoDiv><Logo/></LogoDiv>

@@ -17,6 +17,11 @@ const Root = styled.div`
   display: block;
   overflow-x: hidden;
 `
+const ImgContainer = styled.div`
+  & .gatsby-image-wrapper{
+    height: 100vh;
+  }
+`
 const LogoDiv = styled.div`
   position: absolute;
   top: 10%;
@@ -60,6 +65,7 @@ const HeadTitle = styled.div`
   bottom: 0;
   margin: auto;
   height: max-content;
+  max-height: 200px;
   max-width: 1082px;
   text-align: center;
   @media (max-width: 800px) {
@@ -78,14 +84,16 @@ const IndexPage = () => {
 
   return (
     <>
-      <SEO title="Home"/>
+      <SEO title="Investing in Heritage & Human Potential"/>
       <Root>
         <div className="max-h-screen relative center white">
+          <ImgContainer>
           <Image
             imageUrl={HomeData.introHomePageBackground}
             className="object-cover"
             style={{ height: "100vh" }}
           />
+          </ImgContainer>
           <LogoDiv>
             <Logo />
           </LogoDiv>
@@ -97,7 +105,7 @@ const IndexPage = () => {
             <MenuIcon />
           </MenuDiv>
           <Menu sown={menu}>
-            <MenuData setMenu={setMenu} />
+            <MenuData setMenu={setMenu} home={true}/>
           </Menu>
           <ScrollDownDiv>
             <ScrollIcon className="animate__animated animate__bounce animate__repeat-2 animate__slow" />
